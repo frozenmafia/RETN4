@@ -2,4 +2,14 @@
     <string name="app_name">RETN4</string>
     <string name="hell">hell</string>
     <string name="heaven">heaven</string>
+    <string name="login">Login</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="phone">Phone Number</string>
+    <string name="phone_error">invalid phone number</string>
+    <string name="password">Password</string>
+    <string name="password_error">Password should contain atleast 6 characters</string>
+    <string name="otp_message">Enter the 6 digit OTP sent to you for user verification</string>
+    <string name="otp">OTP</string>
+    <string name="verify">verify</string>
+    <string name="otp_error">Invalid OTP</string>
 </resources>

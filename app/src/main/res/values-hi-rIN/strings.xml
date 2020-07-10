@@ -3,4 +3,15 @@
     <string name="app_name">RETN4</string>
     <string name="hell">नरक</string>
     <string name="heaven">स्वर्ग</string>
+    <string name="login">लॉग इन करें</string>
+    <string name="sign_up">साइन अप करें</string>
+    <string name="phone">फ़ोन नंबर</string>
+    <string name="phone_error">अवैध फोन नंबर</string>
+    <string name="password">पासवर्ड</string>
+    <string name="password_error">पासवर्ड में कम से कम 6 अक्षर होने चाहिए</string>
+    <string name="otp_message">उपयोगकर्ता सत्यापन के लिए आपको 6 अंकों का ओटीपी भेजा गया है,कृपया ओटीपी दर्ज करें</string>
+    <string name="otp">ओटीपी</string>
+    <string name="verify">सत्यापित करें</string>
+    <string name="otp_error">अमान्य ओटीपी</string>
+
 </resources>

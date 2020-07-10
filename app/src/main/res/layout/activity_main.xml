@@ -6,16 +6,53 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="288dp"
+        android:layout_height="143dp"
+        android:layout_marginStart="98dp"
+        android:layout_marginTop="109dp"
+        android:layout_marginEnd="99dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_view">
+
+        <Button
+            android:id="@+id/hindi_ln"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_rowWeight="1"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:text="हिन्दी"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/english_ln"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="1"
+            android:layout_rowWeight="1"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:text="English"
+            android:textSize="24sp" />
+    </GridLayout>
+
     <TextView
         android:id="@+id/text_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="50dp"
-        android:layout_marginTop="50dp"
-        android:layout_marginEnd="50dp"
-        android:text="Hello World!"
+        android:layout_marginStart="169dp"
+        android:layout_marginTop="108dp"
+        android:layout_marginEnd="184dp"
+        android:text="TextView"
+        android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="@string/heaven" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
