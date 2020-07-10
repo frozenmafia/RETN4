@@ -5,6 +5,7 @@ import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
 public class ServiceGenerator {
+    //192.168.43.145 is the ip of my pc,yours might be different
     private static final String BASE_URL = "http://192.168.43.145:5000/";
 
     private static Retrofit.Builder builder =
